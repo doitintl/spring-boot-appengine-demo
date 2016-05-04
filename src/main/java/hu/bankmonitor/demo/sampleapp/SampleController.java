@@ -12,5 +12,11 @@ public class SampleController {
 
 		return "OK";
 	}
+	@RequestMapping("/version")
+	@SuppressWarnings("static-method")
+	public String version() {
+
+		return "1.0.0";
+	}
 
 }
