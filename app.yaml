@@ -1,0 +1,7 @@
+runtime: custom
+vm: true
+service: default
+threadsafe: true
+health_check:
+  enable_health_check: False
+
